@@ -4,7 +4,6 @@ import core.Rank.Rank
 import core.Suit.Suit
 
 case class Card(rank: Rank, suit: Suit) {
-
   override def toString = {
     val rankChar = rank match {
       case Rank.Ace => 'A'
